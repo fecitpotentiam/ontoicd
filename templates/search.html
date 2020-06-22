@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="search container">
+        <div class="column column-50">
+            <h1>Onto ICD-10</h1>
+            <form action="http://localhost:5000/search_result" method="POST">
+                <input type="text" placeholder="Введите название заболевания" name="query">
+
+                <input type="submit" class="button" value="Искать">
+            </form>
+        </div>
+    </div>
+{% endblock %}
