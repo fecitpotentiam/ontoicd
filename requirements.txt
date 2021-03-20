@@ -4,7 +4,7 @@ decorator==4.4.2
 Flask==1.1.2
 fuzzywuzzy==0.18.0
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 kiwisolver==1.2.0
 MarkupSafe==1.1.1
 matplotlib==3.2.2
